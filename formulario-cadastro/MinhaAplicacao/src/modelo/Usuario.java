@@ -6,6 +6,9 @@ public class Usuario {
     private String CPF;
     private String email;
     private String telefone;
+    private String sexo;
+    private String cidade;
+    private String estado;
 
     public long getId() {
         return id;
@@ -46,6 +49,29 @@ public class Usuario {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-    
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
     
 }
